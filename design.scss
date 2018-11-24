@@ -1,12 +1,4 @@
-$root-color: rgb(131, 48, 48);
-$text-size: 1em;
-$h1-size: 4em;
-
-body {
-
-  header {}
-
-  main {}
-
-  footer {}
-}
+@import 'reset';
+@import 'core';
+@import 'variables';
+@import 'mixins';
